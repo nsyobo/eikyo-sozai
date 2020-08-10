@@ -1,0 +1,10 @@
+ErrorDocument 503 /mente.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_URI} !=/mainte.html
+  RewriteCond %{REQUEST_URI} !(javascripts)
+  RewriteCond %{REQUEST_URI} !(stylesheets)
+  RewriteCond %{REQUEST_URI} !(images)
+  RewriteRule ^.*$ - [R=503,L]
+</IfModule>
