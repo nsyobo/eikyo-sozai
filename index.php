@@ -2,13 +2,13 @@
 <?php $page_title = "トップページ";?>
 <?php require "header.php";?>
     <p>
-      閲覧ありがとうございます。<br>
-      こちらはxxxの日記ページです。
+      <br>
+      
     </p>
     <h2>メニュー</h2>
     <ul>
       <li>
-        <a href="blog.php">ブログ</a>
+        <a href="blog.php">To Youとは</a>
       </li>
       <li>
         <a href="inquiry.php">お問い合わせ</a>

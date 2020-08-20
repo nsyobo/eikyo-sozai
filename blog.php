@@ -11,7 +11,7 @@ try {
     exit("クエリの実行に失敗しました");
 }
 ?>
-<?php $page_title = "ブログ";?>
+<?php $page_title = "To You";?>
 <?php require "header.php";?>
 <?php foreach ($rows_post as $row_post) {;?>
     <article>
